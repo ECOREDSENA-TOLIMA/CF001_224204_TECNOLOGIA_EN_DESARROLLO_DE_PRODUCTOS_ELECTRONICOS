@@ -1,1 +1,1 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports = 'Cálculo y medición de magnitudes eléctricas y electrónicas'

@@ -1,3 +1,98 @@
+// Imagenes
+
+.banner-principal__img > img 
+  width: 75%
+  margin: 0px auto
+
+// Titulos ------------------------------- 
+
+.titulo-principal__numero
+  background-color: $color-acento-contenido
+.titulo-principal__numero span
+  color: $white
+.titulo-segundo:after
+  border-left-color: $color-acento-contenido
+
+// Cajon Texto -------------------------------
+
+.bloque-texto-a.color-acento-botones:before
+  background-color: #E8E8E8
+
+
+// Bordes --------------------------------
+
+.rounded-10
+  border-radius: 10px
+.rounded-25
+  border-radius: 25px
+.borde-primario
+  border: solid 3px $color-primario
+.borde-secundario-izq
+  border-left: solid 5px $color-acento-contenido
+.borde-gris
+  border: solid 4px #F6F6F6
+.borde-azul
+  border: solid 2px #70D2DF
+  border-bottom: none 
+.borde-azul > .row
+  border-bottom: solid 2px #70D2DF
+
+
+// Background Colors ------------------------------
+
+.bg-color-acento-botones  
+  background-color: $color-acento-botones
+.bg-amarillo
+  background-color: #FFF0B5
+.bg-amarillo-claro
+  background-color: #F4CD5833 !important
+.bg-morado-claro
+  background-color: #F4D9F0 !important
+.bg-gris
+  background-color: #f6f6f6
+.bg-gris-oscuro
+  background-color: #e8e8e8
+.bg-azul
+  background-color: #70D2DF
+.bg-azul-claro
+  background-color: #00CCA726 !important
+.bg-azul-gradient
+  background-color: linear-gradient(#4DD0E1, #0050A0)
+
+// Tablas --------------------------------
+
+.tabla-a
+  overflow: hidden
+table tr td 
+  vertical-align: baseline
+
+// Estilos de Texto
+
+.font-console p
+  font-family: monospace
+
+// Tarjetas
+
+.tarjeta-avatar-b > img
+  min-width: 0
+  width: 17%
+.tarjeta.color-primario
+  background-image: linear-gradient(180deg, rgba(77,208,225,1) 10%, rgba(0,80,160,1) 100%)
+
+// Posicion
+.centrar-hijo-vertical
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+// Citas
+.bloque-texto-d
+  border-top: 1px solid $color-primario !important
+.bloque-texto-d.color-acento-botones:before
+  background-color: #FFD94726 
+.bloque-texto-d i
+  color: $color-primario
+
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
@@ -10,6 +105,45 @@
     top: 51%
     right: 30%
 
+.bloque-texto-d
+  border-top: 1px solid $color-acento-contenido
+  position: relative
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: 45%
+    bottom: 0
+    left: 35%
+    right: 0
+  &__texto
+    position: relative
+    *
+      display: inline
+  i
+    font-size: 1.7em
+    color: $color-primario
+    &:first-of-type
+      margin-right: 15px
+    &:last-of-type
+      margin-left: 15px
+      vertical-align: text-bottom
+  &__autor
+    text-align: right
+    position: relative
+  &.color-primario
+    &:before
+      background-color: $color-primario
+  &.color-secundario
+    &:before
+      background-color: $color-secundario
+  &.color-acento-contenido
+    &:before
+      background-color: $color-acento-contenido
+
+.tarjeta.color-acento-botones--borde
+  background-color: lighten(#00CCA7, 53%)
+  
 
 @keyframes float1
   0%
@@ -17,3 +151,4 @@
 
   100%
     transform: translateY(0px)
+
