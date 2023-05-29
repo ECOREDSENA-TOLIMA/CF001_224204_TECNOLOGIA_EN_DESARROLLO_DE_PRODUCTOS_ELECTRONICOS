@@ -91,6 +91,66 @@ export default {
       },
     ],
   },
+  referencias: [
+    {
+      referencia:
+        'Acosta, A. (s. f.). Ley de Kirchhoff. Tecnología & Pedagogía.',
+      link:
+        'https://www.tecnologiaypedagogia.net/2019/10/ley-de-kirchhoff-desarrollada-por-el.html',
+    },
+    {
+      referencia: 'Arboledas, D. (2014). Electricidad básica. RA-MA.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/106570?page=24.',
+    },
+    {
+      referencia:
+        'Cuervo, A. (s.f.). Guías únicas de laboratorio: detección de fallas [Universidad Santiago de Cali, Departamento de Laboratorios]. Recuperado de',
+      link:
+        'https://docplayer.es/48669388-Guias-unicas-de-laboratorio-deteccion-de-fallas-autor-alberto-cuervo-santiago-de-cali-universidad-santiago-de-cali-departamento-de-laboratorios.html',
+    },
+    {
+      referencia: 'Escalona, M. (2012). Sistema métrico Sistema internacional.',
+      link: 'https://dialnet.unirioja.es/servlet/libro?codigo=558060',
+    },
+    {
+      referencia:
+        'Fernández, O. (2019). Fuente de corriente. Código Electrónica.',
+      link: 'http://codigoelectronica.com/blog/fuente-corriente',
+    },
+    {
+      referencia:
+        'Julián, C. (s. f.). Ley de Ohm - Ejercicios Resueltos. Fisimat | Blog de Física y Matemáticas.',
+      link: 'https://www.fisimat.com.mx/ley-del-ohm/',
+    },
+    {
+      referencia: 'Mecatrónica LATAM. (2021). Ley de Watt.',
+      link:
+        'https://www.mecatronicalatam.com/es/tutoriales/teoria/ley-de-watt/',
+    },
+    {
+      referencia:
+        'Quincy, J. (1821). A brief history of measurement systems. Report to the Congress. U.S. Department of Commerce.',
+      link:
+        'https://www.nist.gov/system/files/documents/2017/05/09/NIST-SP-304A-Brief-History-Measurement-Systems-w-Color-Chart-1997.pdf',
+    },
+    {
+      referencia:
+        'De la Fuente, J. M. (2019). Historia de las unidades: desde el sistema métrico decimal hasta la reciente revisión del Sistema Internacional de Unidades. e-medida, 15, 3-13. Recuperado de',
+      link:
+        'https://www.e-medida.es/numero-15/historia-de-las-unidades-desde-el-sistema-metrico-decimal-hasta-la-reciente-revision-del-sistema-internacional-de-unidades/',
+    },
+    {
+      referencia:
+        'Tutoriales de electrónica básica. (s.f.). Electrónica básica.',
+      link:
+        'https://www.areatecnologia.com/TUTORIALES/ELECTRONICA%20BASICA.htm',
+    },
+    {
+      referencia: 'Wikipedia. (2021). Función continua.',
+      link: 'https://es.wikipedia.org/wiki/Funci%C3%B3n_continua',
+    },
+  ],
   complementario: [
     {
       texto:
@@ -152,13 +212,13 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del equipo',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -166,9 +226,40 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Ángela Rocío Sánchez Ruiz',
+          cargo: 'Experto Temático',
+          centro: 'Centro de Electricidad, Electrónica y Telecomunicaciones',
+        },
+        {
+          nombre: 'Miroslava González H.',
+          cargo: 'Diseñador y Evaluador Instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Juan Gilberto Giraldo Cortés',
+          cargo: 'Diseñador Instruccional',
+          centro: '',
+        },
+        {
+          nombre: 'Álix Cecilia Chinchilla Rueda',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñones',
+          cargo: 'Asesora Metodológica',
+          centro: 'Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano',
+          cargo: 'Asesor Pedagógico',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Revisión y Corrección de Estilo',
+          centro: 'Regional Tolima - Centro Agropecuario La Granja',
         },
       ],
     },
@@ -176,19 +267,29 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'José Jaime Luis Tang',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Animador y Producción Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Sebastián Trujillo Afanador',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -196,14 +297,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validación y Vinculación en Plataforma LMS',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Gilberto Naranjo Farfán',
+          cargo: 'Validación de Contenidos Accesibles',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },

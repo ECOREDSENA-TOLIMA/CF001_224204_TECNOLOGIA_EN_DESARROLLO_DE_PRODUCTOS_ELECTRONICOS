@@ -13,6 +13,7 @@
           .h5.mb-0.mt-3 Existen dos sistemas comúnmente usados: el sistema métrico internacional y el sistema inglés/americano.
           p.mt-3 Cada fabricante establece unos parámetros de revisión para sus equipos, si las medidas dan por fuera de los límites establecidos, se deberá aplicar la recomendación que el fabricante emita ante esa situación, como calibración de equipo, mantenimiento preventivo, mantenimiento correctivo, o disposición final por deterioro total o difícil recuperación.
         .col-4.col-lg-5.offset-4.offset-lg-0
+          p.mb-4.borde-secundario-izq.mx-0.px-3 <b>Figura 1 :</b> &nbsp;&nbsp; <em>Mediciones de Circuitos</em>
           figure
             img(src="@/assets/curso/temas/tema-1-1.png", alt="Texto que describa la imagen")
       .row.mt-5
@@ -28,6 +29,7 @@
         .col-10.offset-1
           .row
             .col-12.col-lg-6.p-0
+              p.mb-4.borde-secundario-izq.mx-0.px-3 <b>Figura 2 :</b> &nbsp;&nbsp; <em>Resistencia</em>
               figure
                 img(src="@/assets/curso/temas/tema-1-3.png", alt="Texto que describa la imagen")
             .col-12.col-lg-6.py-5.py-lg-0.px-4.borde-primario.centrar-hijo-vertical
@@ -39,10 +41,11 @@
           figure.align-self-center
             img(src="@/assets/curso/temas/tema-1-4.svg", alt="Texto que describa la imagen")
         .col-12.col-lg-10
-          p Las mediciones eléctricas son los métodos, cálculos, comparaciones y otras acciones que miden las magnitudes eléctricas, las cuales pueden variar desde una medida simple con un multímetro, que puede ser físico o virtual, hasta la utilización de otras propiedades físicas de los componentes del circuito, como la temperatura, presión, fuerza y/o flujo, pero en este caso se requieren de otros elementos, como transductores.
-          p.mt-3 Para cada magnitud se utiliza un dispositivo, tal como se visualiza en la siguiente figura.
+          p Las mediciones eléctricas son los métodos, cálculos, comparaciones y otras acciones que miden las magnitudes eléctricas, las cuales pueden variar desde una medida simple con un multímetro, que puede ser físico o virtual, hasta la utilización de otras propiedades físicas de los componentes del circuito, como la temperatura, presión, fuerza y/o flujo, pero en este caso se requieren de otros elementos como transductores.
+          p.mt-3 Para cada magnitud se utiliza un dispositivo, tal como se visualiza en la siguiente figura:
       .row.mt-5
         .col-10.offset-1
+          p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura 1.1 :</b> &nbsp;&nbsp; Infografía1_mediciones e instrumentos
           figure
             img(src="@/assets/curso/temas/tema-1-5.png", alt="Texto que describa la imagen")
       .row.mt-5
@@ -63,6 +66,7 @@
           figure
             img(src="@/assets/curso/temas/tema-1-6.png", alt="Texto que describa la imagen")
       .row.mt-5
+        p.mb-4.borde-secundario-izq.mx-0.px-3 <b>Figura 3 :</b> &nbsp;&nbsp; <em>La longitud en mediciones eléctricas y electronicas.</em>
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema-1-7.png')})`}"
@@ -76,6 +80,7 @@
               .col-12
                 p El sistema internacional de medidas está basado en el metro, cuyo símbolo es m, tiene múltiplos y submúltiplos denominados con prefijos, siempre basados en divisiones o amplificaciones por 10. #[strong El metro, actualmente, se define como la distancia que recorre la luz en el vacío durante un intervalo de 1/299.792.458 de segundo.]
       .row.mt-5
+        p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura 1.1 :</b> &nbsp;&nbsp; Infografía2_sistema internacional de medidas
         figure.p-0
           img(src="@/assets/curso/temas/tema-1-8.svg", alt="Texto que describa la imagen")
       .row.mt-5
@@ -98,7 +103,7 @@
           p #[strong Las magnitudes eléctricas y electrónicas consisten básicamente en corriente, voltaje (tensión) y resistencia.] Se relacionan con fórmulas matemáticas, basadas en leyes de relaciones de la naturaleza, por lo general, físicas, como la Ley de Coulomb.
           p.mt-3 La Ley de Coulomb está determinada por la fuerza de atracción o repulsión entre dos cargas, que es directamente proporcional a la carga e inversamente proporcional al cuadrado de la distancia entre ellas. Fue encontrada por Coulomb mediante la experimentación de un fenómeno que existe en la naturaleza. 
           p.mt-3 Las variables eléctricas y electrónicas utilizan las fuentes de corriente y fuentes de voltaje, cuyos componentes se valoran mediante el uso de las matemáticas, en los respectivos circuitos, incluyendo teoremas como el de Thevenin y el Teorema de Norton.
-          .h5.mt-3 A continuación, se explica cada una de ellas.
+          .h5.mt-3 A continuación, se explica cada una de ellas:
         .col-4.col-lg-5 
           figure
             img(src="@/assets/curso/temas/tema-1-10.png", alt="Texto que describa la imagen")
@@ -113,7 +118,7 @@
             img(src="@/assets/curso/temas/tema-1-11.png", alt="Texto que describa la imagen")
       .row.mt-5
         .col-10.col-lg-8.offset-1.offset-lg-2
-          p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura:</b> &nbsp;&nbsp; Esquema de corriente eléctrica
+          p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura 4:</b> &nbsp;&nbsp; <em>Esquema de corriente eléctrica</em>
           figure.mt-4
             img(src="@/assets/curso/temas/tema-1-12.png", alt="Texto que describa la imagen")
           figcaption Nota: Tomado de Wilson15b. (2020)   
@@ -245,26 +250,26 @@
         .col-4.col-lg-5.offset-4.offset-lg-0
           figure
             img(src="@/assets/curso/temas/tema-1-17.png", alt="Texto que describa la imagen")
-      .row.mt-5 
-        .col-12
-          .cajon.color-acento-botones.p-4.mb-4.bg-amarillo-claro
-            .row
-              .col-2.col-lg-1
-                figure
-                  img(src="@/assets/curso/temas/tema-1-18.svg", alt="Texto que describa la imagen")
-              .col-10.col-lg-11
-                p La electricidad estática se produce por la acumulación de cargas en una zona del material. Los materiales cargados, para volver a su condición de equilibrio eléctrico, necesitan descargarse; esto hace que pueda producirse una descarga eléctrica cuando dicho objeto se pone en contacto con otro. 
-                p.mt-4 Cuando se carga un material, se está acumulando carga en una región del mismo. La forma más sencilla de cargar la materia es por frotamiento. Entonces, si el material adquiere una carga muy elevada, los electrones pueden pasar a otro cuerpo sin necesidad de que haya un contacto físico entre ellos. En este caso, la descarga eléctrica forma un arco luminoso, como puede verse en los rayos durante las tormentas.
+      .row.mt-3
+        .col-12.col-g-10.d-none.d-lg-flex.py-3.px-5.text-center.align-left-center
+          figure.align-self-center
+            img(src="@/assets/curso/temas/cuadro.svg", alt="Texto que describa la imagen")
+      //.row.mt-3 
+        .col-12.col-g-10.d-none.d-lg-flex.py-3.px-5.text-center.align-left-center
+          figure.align-self-center
+            img(src="@/assets/curso/temas/cuadro.svg", alt="Texto que describa la imagen")
       .row.mb-5
         .col-
           //- .bloque-texto-d debe ir acompañado de una de una de estas clases => 
           //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          .bloque-texto-d.color-acento-botones.p-4
-            .bloque-texto-d__texto.mb-2
-              i.fas.fa-quote-left
-              .h4 Quizá la forma más antigua que conoció el hombre de experimentar fenómenos eléctricos fue con la fricción o frotación. La historia dice que fue Tales de Mileto quien observó dicho fenómeno al frotar un trozo de ámbar con un trozo de piel. Tras la frotación, observó que podían atraerse pequeños objetos y llamó a esa fuerza invisible elektron.
-              i.fas.fa-quote-right
-              p.m-5 —ámbar—.(Arboledas, 2014).
+          .row.mt-3
+              .col-12.col-g-10.d-none.d-lg-flex.py-3.px-5.text-center.align-left-center
+                figure.align-self-center
+                  img(src="@/assets/curso/temas/cuadro2.svg", alt="Texto que describa la imagen")
+              //- i.fas.fa-quote-left
+              //- .h4 Quizá la forma más antigua que conoció el hombre de experimentar fenómenos eléctricos fue con la fricción o frotación. La historia dice que fue Tales de Mileto quien observó dicho fenómeno al frotar un trozo de ámbar con un trozo de piel. Tras la frotación, observó que podían atraerse pequeños objetos y llamó a esa fuerza invisible elektron.
+              //- i.fas.fa-quote-right
+              //- p.m-5 —ámbar—.(Arboledas, 2014).
       .row.mt-5 
         .col-12.bg-color-acento-botones.rounded-10
             .row
