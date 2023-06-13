@@ -7,47 +7,47 @@
           span 1
         h1 Mediciones de acuerdo con procedimientos técnicos y especificaciones del fabricante
       .row.mt-5
-        .col-12.col-lg-7
+        .col-12.col-lg-7(data-aos="fade-right")
           p Para entender el funcionamiento de los circuitos eléctricos y electrónicos, es importante reconocer las características eléctricas de sus componentes para, posteriormente, entender cómo es su diseño.  Las magnitudes se pueden medir a través de diferentes equipos, entre ellos el multímetro.
           p.mt-3 Las mediciones de los circuitos eléctricos y electrónicos son básicas y serán detalladas más adelante en el estudio de las características físicas de los componentes; sin embargo, cuando los circuitos hacen parte de una tarjeta o de un equipo, se deberán tener en cuenta procedimientos, protocolos y especificaciones definidas por el respectivo fabricante.
           .h5.mb-0.mt-3 Existen dos sistemas comúnmente usados: el sistema métrico internacional y el sistema inglés/americano.
           p.mt-3 Cada fabricante establece unos parámetros de revisión para sus equipos, si las medidas dan por fuera de los límites establecidos, se deberá aplicar la recomendación que el fabricante emita ante esa situación, como calibración de equipo, mantenimiento preventivo, mantenimiento correctivo, o disposición final por deterioro total o difícil recuperación.
-        .col-4.col-lg-5.offset-4.offset-lg-0
+        .col-4.col-lg-5.offset-4.offset-lg-0(data-aos="zoom-in")
           figure
             img(src="@/assets/curso/temas/tema-1-1.png", alt="Texto que describa la imagen")
       .row.mt-5
         .col-12
           .cajon.color-primario.p-4.mb-4.bg-azul-claro
             .row
-              .col-2.col-lg-1
+              .col-2.col-lg-1(data-aos="zoom-in")
                 figure
                   img(src="@/assets/curso/temas/tema-1-2.svg", alt="Texto que describa la imagen")
-              .col-10.col-lg-11
+              .col-10.col-lg-11(data-aos="fade-right")
                 p #[strong Las especificaciones del fabricante están basadas en los elementos utilizados y sus respectivas características técnicas], incluyendo tipo de materiales, color, construcción, detalles, combinaciones, temperatura utilizada, confiabilidad y resistencia a diferentes factores; de acuerdo con estas especificaciones, la medición de los componentes y/o equipos afecta.
       .row.mt-5
         .col-10.offset-1
           .row
-            .col-12.col-lg-6.p-0
+            .col-12.col-lg-6.p-0(data-aos="zoom-in")
               figure
                 img(src="@/assets/curso/temas/tema-1-3.png", alt="Texto que describa la imagen")
-            .col-12.col-lg-6.py-5.py-lg-0.px-4.borde-primario.centrar-hijo-vertical
+            .col-12.col-lg-6.py-5.py-lg-0.px-4.borde-primario.centrar-hijo-vertical(data-aos="fade-right")
               p.m-0 #[strong Un ejemplo común son las resistencias.] Vienen diseñadas con porcentajes del 5, 10 y 20 por ciento de precisión, por lo cual se identifican, respectivamente, con una banda dorada, plateada y sin banda adicional. #[strong Varios autores denominan esta banda como de tolerancia.]
       .titulo-segundo.mt-5
         #t_1_1.h4 1.1 Mediciones e instrumentos de medición
       .row.mt-4 
-        .col-lg-2.d-none.d-lg-flex.rounded-25.bg-amarillo.py-3.px-5.text-center.align-left-center
+        .col-lg-2.d-none.d-lg-flex.rounded-25.bg-amarillo.py-3.px-5.text-center.align-left-center(data-aos="zoom-in")
           figure.align-self-center
             img(src="@/assets/curso/temas/tema-1-4.svg", alt="Texto que describa la imagen")
-        .col-12.col-lg-10
+        .col-12.col-lg-10(data-aos="fade-right")
           p Las mediciones eléctricas son los métodos, cálculos, comparaciones y otras acciones que miden las magnitudes eléctricas, las cuales pueden variar desde una medida simple con un multímetro, que puede ser físico o virtual, hasta la utilización de otras propiedades físicas de los componentes del circuito, como la temperatura, presión, fuerza y/o flujo, pero en este caso se requieren de otros elementos como transductores.
           p.mt-3 Para cada magnitud se utiliza un dispositivo, tal como se visualiza en la siguiente figura:
       .row.mt-5
-        .col-10.offset-1
+        .col-10.offset-1(data-aos="fade-down-right")
           p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura 1:</b> &nbsp;&nbsp; Mediciones e Instrumentos
           figure
             img(src="@/assets/curso/temas/tema-1-5.png", alt="Texto que describa la imagen")
       .row.mt-5
-        .col-12.col-lg-7
+        .col-12.col-lg-7(data-aos="fade-down-right")
           p Las unidades de longitud se utilizan para medir la distancia entre dos puntos, la cual puede ser un segmento, una línea recta o una curva.  La unidad de distancia está determinada de acuerdo con un sistema de medidas por convención. En los orígenes de la humanidad, se utilizaron partes del cuerpo, cada país o región tenía sus propias medidas y, a menudo, una medida era diferente en cada lugar. Estas situaciones requirieron de la necesidad de un sistema métrico universal.
           .row.mb-5
             .col
@@ -60,57 +60,57 @@
                   i.fas.fa-quote-right
                 .bloque-texto-d__autor
                   .h5.mb-0 Quincy, 1821
-        .col-lg-5.d-none.d-lg-flex.p-0
+        .col-lg-5.d-none.d-lg-flex.p-0(data-aos="zoom-in")
           figure
             img(src="@/assets/curso/temas/tema-1-6.png", alt="Texto que describa la imagen")
       .row.mt-5
-        p.mb-4.borde-secundario-izq.mx-0.px-3 <b>Figura 3 :</b> &nbsp;&nbsp; <em>La longitud en mediciones eléctricas y electronicas.</em>
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+        p.mb-4.borde-secundario-izq.mx-0.px-3(data-aos="fade-down-right") <b>Figura 3 :</b> &nbsp;&nbsp; <em>La longitud en mediciones eléctricas y electronicas.</em>
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema-1-7.png')})`}"
           )
-          .bloque-texto-g__texto.p-4
+          .bloque-texto-g__texto.p-4(data-aos="fade-down-right")
             p.mb-0 Se podría decir que la longitud es la magnitud básica y de ella se derivan otras magnitudes, por lo cual está catalogada como una magnitud física fundamental. La longitud no debe confundirse con la distancia, porque no siempre son iguales, especialmente cuando se trata de líneas curvas. La longitud está intrínseca en las medidas de las variables eléctricas y/o electrónicas, porque, de acuerdo con la distancia entre elementos o por el tamaño de los mismos, varía la medición electrónica. Ejemplo de ello es la distancia entre placas o la longitud de una resistencia en largo o grueso.
       .row.mt-5
-        .col-10.offset-1
+        .col-10.offset-1(data-aos="fade-down-right")
           .cajon.color-primario.p-4.mb-4.bg-azul-claro
             .row
               .col-12
                 p El sistema internacional de medidas está basado en el metro, cuyo símbolo es m, tiene múltiplos y submúltiplos denominados con prefijos, siempre basados en divisiones o amplificaciones por 10. #[strong El metro, actualmente, se define como la distancia que recorre la luz en el vacío durante un intervalo de 1/299.792.458 de segundo.]
-      .row.mt-5
+      .row.mt-5(data-aos="zoom-in")
         figure.p-0
           img(src="@/assets/curso/temas/tema-1-8.svg", alt="Texto que describa la imagen")
       .row.mt-5
-        .col-lg-2.d-none.d-lg-flex.rounded-25.bg-amarillo.py-3.px-5.text-center.align-left-center
+        .col-lg-2.d-none.d-lg-flex.rounded-25.bg-amarillo.py-3.px-5.text-center.align-left-center(data-aos="zoom-in")
           figure.align-self-center
             img(src="@/assets/curso/temas/tema-1-9.svg", alt="Texto que describa la imagen")
-        .col-12.col-lg-10
+        .col-12.col-lg-10(data-aos="fade-down-right")
           p El sistema métrico internacional es gobernado por la Organización Internacional de Metrología Legal (OIML), creada en 1955, y se ocupa de la armonización internacional de esas legislaciones.
           p.mt-3 Existen otros sistemas de medidas, como el sistema anglosajón, también conocido como sistema inglés, y el sistema náutico. Para este programa, se utilizará el sistema internacional de medidas y medidas físicas que hacen parte del mismo.
       .row.mt-5 
-        .col-10.offset-1
+        .col-10.offset-1(data-aos="fade-down-right")
           .cajon.color-primario.p-4.mb-4.bg-azul-claro
             .row
               .col-12
                 p #[strong El sistema anglosajón] es utilizado en países de habla inglesa y presenta algunas diferencias entre la utilización en los Estados Unidos y el Reino Unido, pues no está basado en un acuerdo internacional ni tiene un control supranacional, y fue inicialmente conocido como sistema imperial.
-      .titulo-segundo.mt-5
+      .titulo-segundo.mt-5(data-aos="fade-down-right")
         #t_1_2.h4 1.2  Magnitudes eléctricas y electrónicas
       .row.mt-5
-        .col-12.col-lg-7
+        .col-12.col-lg-7(data-aos="fade-down-right")
           p #[strong Las magnitudes eléctricas y electrónicas consisten básicamente en corriente, voltaje (tensión) y resistencia.] Se relacionan con fórmulas matemáticas, basadas en leyes de relaciones de la naturaleza, por lo general, físicas, como la Ley de Coulomb.
           p.mt-3 La Ley de Coulomb está determinada por la fuerza de atracción o repulsión entre dos cargas, que es directamente proporcional a la carga e inversamente proporcional al cuadrado de la distancia entre ellas. Fue encontrada por Coulomb mediante la experimentación de un fenómeno que existe en la naturaleza. 
           p.mt-3 Las variables eléctricas y electrónicas utilizan las fuentes de corriente y fuentes de voltaje, cuyos componentes se valoran mediante el uso de las matemáticas, en los respectivos circuitos, incluyendo teoremas como el de Thevenin y el Teorema de Norton.
           .h5.mt-3 A continuación, se explica cada una de ellas:
-        .col-4.col-lg-5 
+        .col-4.col-lg-5(data-aos="zoom-in") 
           figure
             img(src="@/assets/curso/temas/tema-1-10.png", alt="Texto que describa la imagen")
       // .h4.mt-5 &nbsp;&nbsp; Magnitudes eléctricas y electrónicas
       .row.mt-5
         .h4.mb-4.borde-secundario-izq.mx-3 Parámetros eléctricos
-        .col-12.col-lg-7
+        .col-12.col-lg-7(data-aos="fade-down-right")
           p Los parámetros eléctricos son los que se presentan en los circuitos eléctricos, como la corriente, la resistencia, el voltaje, la potencia, entre otros, al igual que en los dispositivos electrónicos que utilizamos comúnmente en el hogar o la oficina y los manejados en la industria.   Comprender estos conceptos hace más fácil el aprendizaje virtual y la aplicación en el trabajo.
           p.mt-3 Se basan en la conducción de la corriente mediante las cargas positivas y negativas de los electrones.  Las cargas están en reposo, pero, al reaccionar, se ponen en movimiento y producen la corriente eléctrica, generando las diferentes clases de parámetros eléctricos.
-        .col-4.col-lg-5
+        .col-4.col-lg-5(data-aos="zoom-in") 
           figure
             img(src="@/assets/curso/temas/tema-1-11.png", alt="Texto que describa la imagen")
       .row.mt-5
@@ -126,7 +126,7 @@
             .col-4.col-lg-3.offset-4.offset-lg-4.rounded-25.bg-amarillo.py-3.px-3.text-center
               .h5.m-0 I(t) = dq(t)/dt
             p.mt-5 Las unidades de corriente culombios por segundo, C/s, se denominan amperes o amperios (A), en honor al físico francés André Ampère; pero fue Benjamin Franklin quien seleccionó como sentido de la corriente aquel en el cual fluiría la carga positiva.
-            .col-10.col-lg-8.offset-1.offset-lg-2
+            .col-10.col-lg-8.offset-1.offset-lg-2(data-aos="fade-down-right")
               p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura:</b> &nbsp;&nbsp; Gráfica de fuente de corriente
               figure.mt-4
                 img(src="@/assets/curso/temas/tema-1-13.png", alt="Texto que describa la imagen")
@@ -138,7 +138,7 @@
           p #[strong El voltaje es producido por una fuente de voltaje o diferencia de potencial de v voltios entre sus terminales,] sin importar a qué esté conectada.  La cantidad de voltaje (v) puede ser un número positivo o negativo; este último se da cuando es producida por una fuente de voltaje alterna (como, por ejemplo, el suministro de energía eléctrica residencial o comercial de las ciudades). El voltaje es positivo cuando se refiere al producido por una fuente de voltaje directa.
           p.mt-3 El voltaje también es conocido como tensión o caída de tensión, debido a la polarización, y es muy utilizado en el diseño de elementos para circuitos electrónicos, en unión con el tema de corriente inversa, el cual se refiere a la corriente con polarización diferente a la de la tensión, y es adicionada con la corriente producida térmicamente y la corriente superficial de fugas.
           p.mt-3 La tensión a partir de la cual la corriente empieza a incrementar rápidamente se denomina tensión de umbral del diodo, que es igual a la barrera de potencial.
-          .col-10.col-lg-8.offset-1.offset-lg-2
+          .col-10.col-lg-8.offset-1.offset-lg-2(data-aos="fade-down-right")
             p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura:</b> &nbsp;&nbsp; Gráfica de fuente de voltaje
             figure.mt-4
               img(src="@/assets/curso/temas/tema-1-14.png", alt="Texto que describa la imagen")
@@ -159,7 +159,7 @@
           .row.mt-4
             .col-4.col-lg-3.offset-4.offset-lg-4.rounded-25.bg-amarillo.py-3.px-3.text-center
               .h5.m-0 R = v(t)/i(t)
-            .col-10.col-lg-8.offset-1.offset-lg-2.mt-4
+            .col-10.col-lg-8.offset-1.offset-lg-2.mt-4(data-aos="fade-down-right")
               p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura:</b> &nbsp;&nbsp; Gráfica representativa de la resistencia
               figure.mt-4
                 img(src="@/assets/curso/temas/tema-1-15.png", alt="Texto que describa la imagen")
@@ -177,7 +177,7 @@
               .h5.m-0 p(t) = v(t) i(t)
           p.mt-4 La unidad de potencia (julios por segundos) se denomina watt, en inglés, o vatios.
           .row.mt-4
-            .col-10.col-lg-8.offset-1.offset-lg-2.mt-4
+            .col-10.col-lg-8.offset-1.offset-lg-2.mt-4(data-aos="fade-down-right")
               p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura:</b> &nbsp;&nbsp; Potencia absorbida por un elemento
               figure.mt-4
                 img(src="@/assets/curso/temas/tema-1-16.png", alt="Texto que describa la imagen")
@@ -239,12 +239,12 @@
                   .h5.m-0 P = V<sup>2</sup>/R
           p.mt-4 En las anteriores fórmulas, únicamente se sustituyeron las incógnitas correspondientes, empleando la fórmula de la ley de Ohm.
       .row.mt-4
-        .col-12.mt-4
+        .col-12.mt-4(data-aos="fade-down-right")
           .h5.mb-4.borde-secundario-izq.mx-1.px-3 Influencia de la estática   
       .row.mt-4
-        .col-12.col-lg-7
+        .col-12.col-lg-7(data-aos="fade-down-right")
           p El término electricidad estática se refiere a la acumulación de un exceso de carga eléctrica (positivas o negativas) en un material conductor o aislante. Los efectos de la electricidad estática son familiares para la mayoría de las personas, porque pueden ver, notar e incluso llegar a sentir las chispas de las descargas que se producen cuando el esfuerzo de carga del objeto cargado se pone cerca de un buen conductor eléctrico (como un conductor conectado a una toma de tierra) u otro objeto con un exceso de carga pero con la polaridad opuesta.
-        .col-4.col-lg-5.offset-4.offset-lg-0
+        .col-4.col-lg-5.offset-4.offset-lg-0(data-aos="zoom-in")
           figure
             img(src="@/assets/curso/temas/tema-1-17.png", alt="Texto que describa la imagen")
       .row.mt-3
