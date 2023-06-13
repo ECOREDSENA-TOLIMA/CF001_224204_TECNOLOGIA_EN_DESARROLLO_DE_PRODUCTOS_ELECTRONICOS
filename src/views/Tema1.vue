@@ -107,7 +107,7 @@
         .col-4.col-lg-5 
           figure
             img(src="@/assets/curso/temas/tema-1-10.png", alt="Texto que describa la imagen")
-      .h4.mt-5 &nbsp;&nbsp; Magnitudes eléctricas y electrónicas
+      // .h4.mt-5 &nbsp;&nbsp; Magnitudes eléctricas y electrónicas
       .row.mt-5
         .h4.mb-4.borde-secundario-izq.mx-3 Parámetros eléctricos
         .col-12.col-lg-7

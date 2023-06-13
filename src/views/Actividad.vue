@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Medición y protocolos para circuitos eléctricos
-        p.mb-4 #[b Objetivo] Aplicarlo los conocimientos teóricos adquiridos en el desarrollo del componente formativo sobre protocolos y medición de circuitos eléctricos. 
+        p.mb-4 #[b Objetivo:] Aplicar los conocimientos teóricos adquiridos en el desarrollo del componente formativo sobre protocolos y medición de circuitos eléctricos. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
