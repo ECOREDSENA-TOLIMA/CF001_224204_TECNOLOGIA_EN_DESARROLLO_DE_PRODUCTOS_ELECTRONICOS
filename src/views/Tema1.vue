@@ -40,10 +40,9 @@
             img(src="@/assets/curso/temas/tema-1-4.svg", alt="Texto que describa la imagen")
         .col-12.col-lg-10(data-aos="fade-right")
           p Las mediciones eléctricas son los métodos, cálculos, comparaciones y otras acciones que miden las magnitudes eléctricas, las cuales pueden variar desde una medida simple con un multímetro, que puede ser físico o virtual, hasta la utilización de otras propiedades físicas de los componentes del circuito, como la temperatura, presión, fuerza y/o flujo, pero en este caso se requieren de otros elementos como transductores.
-          p.mt-3 Para cada magnitud se utiliza un dispositivo, tal como se visualiza en la siguiente figura:
+          p.mt-3 Para cada magnitud se utiliza un dispositivo.
       .row.mt-5
         .col-10.offset-1(data-aos="fade-down-right")
-          p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura 1:</b> &nbsp;&nbsp; Mediciones e Instrumentos
           figure
             img(src="@/assets/curso/temas/tema-1-5.png", alt="Texto que describa la imagen")
       .row.mt-5
@@ -115,7 +114,6 @@
             img(src="@/assets/curso/temas/tema-1-11.png", alt="Texto que describa la imagen")
       .row.mt-5
         .col-10.col-lg-8.offset-1.offset-lg-2
-          p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura:</b> &nbsp;&nbsp; <em>Esquema de corriente eléctrica</em>
           figure.mt-4
             img(src="@/assets/curso/temas/tema-1-12.png", alt="Texto que describa la imagen")
           figcaption Nota: Tomado de Wilson15b. (2020)   

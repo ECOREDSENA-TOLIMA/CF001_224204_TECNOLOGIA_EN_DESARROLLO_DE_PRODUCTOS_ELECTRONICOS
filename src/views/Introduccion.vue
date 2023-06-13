@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    p.mt-4 Antes de ingresar en materia de contenidos, es importante conocer el porqué de la importancia de la electrónica y su nacimiento. La siguiente infografía es un repaso de la historia y evolución de la misma.
+    p.mt-4(data-aos="fade-up") Antes de ingresar en materia de contenidos, es importante conocer el porqué de la importancia de la electrónica y su nacimiento. La siguiente infografía es un repaso de la historia y evolución de la misma.
     figure.mt-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/0pbCUzGysts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -40,6 +40,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.introduccion
-</style>
+<style lang="sass"></style>
