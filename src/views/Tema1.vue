@@ -248,23 +248,7 @@
       .row.mt-3
         .col-12.col-g-10.d-none.d-lg-flex.py-3.px-5.text-center.align-left-center
           figure.align-self-center
-            img(src="@/assets/curso/temas/cuadro.svg", alt="Texto que describa la imagen")
-      //.row.mt-3 
-        .col-12.col-g-10.d-none.d-lg-flex.py-3.px-5.text-center.align-left-center
-          figure.align-self-center
-            img(src="@/assets/curso/temas/cuadro.svg", alt="Texto que describa la imagen")
-      .row.mb-5
-        .col-
-          //- .bloque-texto-d debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          .row.mt-3
-              .col-12.col-g-10.d-none.d-lg-flex.py-3.px-5.text-center.align-left-center
-                figure.align-self-center
-                  img(src="@/assets/curso/temas/cuadro2.svg", alt="Texto que describa la imagen")
-              //- i.fas.fa-quote-left
-              //- .h4 Quizá la forma más antigua que conoció el hombre de experimentar fenómenos eléctricos fue con la fricción o frotación. La historia dice que fue Tales de Mileto quien observó dicho fenómeno al frotar un trozo de ámbar con un trozo de piel. Tras la frotación, observó que podían atraerse pequeños objetos y llamó a esa fuerza invisible elektron.
-              //- i.fas.fa-quote-right
-              //- p.m-5 —ámbar—.(Arboledas, 2014).
+            img(src="@/assets/curso/temas/cuadros.svg", alt="Texto que describa la imagen")
       .row.mt-5 
         .col-12.bg-color-acento-botones.rounded-10
             .row
