@@ -154,14 +154,14 @@ export default {
   complementario: [
     {
       tema: 'Laboratorio de circuitos electrónicos',
-      texto:
+      referencia:
         'Hernández, N., Medel, P. y Ramírez, J. (2003). Dispositivos y circuitos electrónicos. Prácticas de laboratorio. Universidad Nacional Autónoma de México.',
       tipo: 'PDF',
       descarga: 'downloads/M_Dispositivos_Circuitos_Electronicos.pdf',
     },
     {
       tema: 'Electricidad básica ',
-      texto: 'Arboledas, D. (2014). Electricidad básica. RA-MA.',
+      referencia: 'Arboledas, D. (2014). Electricidad básica. RA-MA.',
       tipo: 'Libro',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/106570?page=24. ',
