@@ -13,7 +13,7 @@
       .col-4.col-lg-5(data-aos="zoom-in")
         img(src="@/assets/template/tema-2-1.png", alt="Texto que describa la imagen")
     TabsB.color-acento-contenido.mt-5
-      .py-4.py-md-5(titulo="Técnicas caza de fallas (troubleshooting)" :icono="require('@/assets/template/tema-2-2.svg')")
+      .py-4.py-md-5(titulo="Técnicas caza de fallas <em>(troubleshooting)</em>" :icono="require('@/assets/template/tema-2-2.svg')")
         .row
           .col-12.col-lg-7(data-aos="fade-down-right")
             p Las técnicas caza de fallas están diseñadas, y son necesarias, para identificar y clasificar correctamente las fallas que se presentan en un circuito electrónico o en un dispositivo.  Detallan qué parte del circuito o del dispositivo está rechazando la corriente eléctrica.  Se realizan medidas de las características eléctricas, como la corriente y el voltaje, para determinar la falla.
