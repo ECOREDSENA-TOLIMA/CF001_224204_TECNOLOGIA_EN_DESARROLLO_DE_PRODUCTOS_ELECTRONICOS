@@ -41,7 +41,7 @@
             img(src="@/assets/curso/temas/tema-1-4.svg", alt="Texto que describa la imagen")
         .col-12.col-lg-10(data-aos="fade-right")
           p Las mediciones eléctricas son los métodos, cálculos, comparaciones y otras acciones que miden las magnitudes eléctricas, las cuales pueden variar desde una medida simple con un multímetro, que puede ser físico o virtual, hasta la utilización de otras propiedades físicas de los componentes del circuito, como la temperatura, presión, fuerza y/o flujo, pero en este caso se requieren de otros elementos como transductores.
-          p.mt-3 Para cada magnitud se utiliza un dispositivo.
+          p.mt-3 Para cada magnitud se utiliza un dispositivo, tal como se visualiza en la siguiente representación. 
       .row.mt-5
         .col-10.offset-1(data-aos="fade-down-right")
           figure
@@ -69,13 +69,13 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema-1-7.png')})`}"
           )
           .bloque-texto-g__texto.p-4(data-aos="fade-down-right")
-            p.mb-0 Se podría decir que la longitud es la magnitud básica y de ella se derivan otras magnitudes, por lo cual está catalogada como una magnitud física fundamental. La longitud no debe confundirse con la distancia, porque no siempre son iguales, especialmente cuando se trata de líneas curvas. La longitud está intrínseca en las medidas de las variables eléctricas y/o electrónicas, porque, de acuerdo con la distancia entre elementos o por el tamaño de los mismos, varía la medición electrónica. Ejemplo de ello es la distancia entre placas o la longitud de una resistencia en largo o grueso.
+            p.mb-0 Se podría decir que la longitud es la magnitud básica y de ella se derivan otras magnitudes, por lo cual está catalogada como una magnitud física fundamental. La longitud no debe confundirse con la distancia, porque no siempre son iguales, especialmente cuando se trata de líneas curvas. La longitud está intrínseca en las medidas de las variables eléctricas y/o electrónicas, porque, de acuerdo con la distancia entre elementos o por el tamaño de los mismos, varía la medición electrónica. Ejemplo de ello es la distancia entre placas o la longitud de una resistencia en largo o grueso. 
       .row.mt-5
         .col-10.offset-1(data-aos="fade-down-right")
           .cajon.color-primario.p-4.mb-4.bg-azul-claro
             .row
               .col-12
-                p El sistema internacional de medidas está basado en el metro, cuyo símbolo es m, tiene múltiplos y submúltiplos denominados con prefijos, siempre basados en divisiones o amplificaciones por 10. #[strong El metro, actualmente, se define como la distancia que recorre la luz en el vacío durante un intervalo de 1/299.792.458 de segundo.]
+                p El sistema internacional de medidas está basado en el metro, cuyo símbolo es m, tiene múltiplos y submúltiplos denominados con prefijos, siempre basados en divisiones o amplificaciones por 10. #[strong El metro, actualmente, se define como la distancia que recorre la luz en el vacío durante un intervalo de 1/299.792.458 de segundo.] A continuación, podemos visualizar sus orígenes:
       .row.mt-5(data-aos="zoom-in")
         figure.p-0
           img(src="@/assets/curso/temas/tema-1-8.svg", alt="Texto que describa la imagen")
