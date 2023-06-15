@@ -28,6 +28,7 @@
         .col-10.offset-1
           .row
             .col-12.col-lg-6.p-0(data-aos="zoom-in")
+              p.mb-4.borde-secundario-izq.mx-0.px-3(data-aos="fade-down-right") <b>Figura 1 :</b> &nbsp;&nbsp; <em>Resistencia</em>
               figure
                 img(src="@/assets/curso/temas/tema-1-3.png", alt="Texto que describa la imagen")
             .col-12.col-lg-6.py-5.py-lg-0.px-4.borde-primario.centrar-hijo-vertical(data-aos="fade-right")
@@ -63,7 +64,6 @@
           figure
             img(src="@/assets/curso/temas/tema-1-6.png", alt="Texto que describa la imagen")
       .row.mt-5
-        p.mb-4.borde-secundario-izq.mx-0.px-3(data-aos="fade-down-right") <b>Figura 3 :</b> &nbsp;&nbsp; <em>La longitud en mediciones eléctricas y electronicas.</em>
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema-1-7.png')})`}"
@@ -109,11 +109,12 @@
         .col-12.col-lg-7(data-aos="fade-down-right")
           p Los parámetros eléctricos son los que se presentan en los circuitos eléctricos, como la corriente, la resistencia, el voltaje, la potencia, entre otros, al igual que en los dispositivos electrónicos que utilizamos comúnmente en el hogar o la oficina y los manejados en la industria.   Comprender estos conceptos hace más fácil el aprendizaje virtual y la aplicación en el trabajo.
           p.mt-3 Se basan en la conducción de la corriente mediante las cargas positivas y negativas de los electrones.  Las cargas están en reposo, pero, al reaccionar, se ponen en movimiento y producen la corriente eléctrica, generando las diferentes clases de parámetros eléctricos.
-        .col-4.col-lg-5(data-aos="zoom-in") 
+        .col-4.col-lg-5(data-aos="zoom-in")
           figure
             img(src="@/assets/curso/temas/tema-1-11.png", alt="Texto que describa la imagen")
       .row.mt-5
         .col-10.col-lg-8.offset-1.offset-lg-2
+          p.mb-4.borde-secundario-izq.mx-0.px-3(data-aos="fade-down-right") <b>Figura 2 :</b> &nbsp;&nbsp; <em>Esquema de corriente eléctrica</em> 
           figure.mt-4
             img(src="@/assets/curso/temas/tema-1-12.png", alt="Texto que describa la imagen")
           figcaption Nota: Tomado de Wilson15b. (2020)   
@@ -125,7 +126,7 @@
               .h5.m-0 I(t) = dq(t)/dt
             p.mt-5 Las unidades de corriente culombios por segundo, C/s, se denominan amperes o amperios (A), en honor al físico francés André Ampère; pero fue Benjamin Franklin quien seleccionó como sentido de la corriente aquel en el cual fluiría la carga positiva.
             .col-10.col-lg-8.offset-1.offset-lg-2(data-aos="fade-down-right")
-              p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura:</b> &nbsp;&nbsp; Gráfica de fuente de corriente
+              p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura 3:</b> &nbsp;&nbsp; Gráfica de fuente de corriente
               figure.mt-4
                 img(src="@/assets/curso/temas/tema-1-13.png", alt="Texto que describa la imagen")
               figcaption Nota: Tomada de Fernández (2019).
@@ -137,7 +138,7 @@
           p.mt-3 El voltaje también es conocido como tensión o caída de tensión, debido a la polarización, y es muy utilizado en el diseño de elementos para circuitos electrónicos, en unión con el tema de corriente inversa, el cual se refiere a la corriente con polarización diferente a la de la tensión, y es adicionada con la corriente producida térmicamente y la corriente superficial de fugas.
           p.mt-3 La tensión a partir de la cual la corriente empieza a incrementar rápidamente se denomina tensión de umbral del diodo, que es igual a la barrera de potencial.
           .col-10.col-lg-8.offset-1.offset-lg-2(data-aos="fade-down-right")
-            p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura:</b> &nbsp;&nbsp; Gráfica de fuente de voltaje
+            p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura 4:</b> &nbsp;&nbsp; Gráfica de fuente de voltaje
             figure.mt-4
               img(src="@/assets/curso/temas/tema-1-14.png", alt="Texto que describa la imagen")
             figcaption Nota: Tomado de Tutoriales de electrónica básica (2019).
@@ -158,7 +159,7 @@
             .col-4.col-lg-3.offset-4.offset-lg-4.rounded-25.bg-amarillo.py-3.px-3.text-center
               .h5.m-0 R = v(t)/i(t)
             .col-10.col-lg-8.offset-1.offset-lg-2.mt-4(data-aos="fade-down-right")
-              p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura:</b> &nbsp;&nbsp; Gráfica representativa de la resistencia
+              p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura 5:</b> &nbsp;&nbsp; Gráfica representativa de la resistencia
               figure.mt-4
                 img(src="@/assets/curso/temas/tema-1-15.png", alt="Texto que describa la imagen")
               figcaption Nota: Tomada de Julián (s. f.).
@@ -176,7 +177,7 @@
           p.mt-4 La unidad de potencia (julios por segundos) se denomina watt, en inglés, o vatios.
           .row.mt-4
             .col-10.col-lg-8.offset-1.offset-lg-2.mt-4(data-aos="fade-down-right")
-              p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura:</b> &nbsp;&nbsp; Potencia absorbida por un elemento
+              p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura 6:</b> &nbsp;&nbsp; Potencia absorbida por un elemento
               figure.mt-4
                 img(src="@/assets/curso/temas/tema-1-16.png", alt="Texto que describa la imagen")
               figcaption Nota: Tomada de Acosta (s. f.).
