@@ -168,8 +168,7 @@ export default {
       tema: 'Electricidad básica ',
       referencia: 'Arboledas, D. (2014). Electricidad básica. RA-MA.',
       tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/106570?page=24. ',
+      link: 'https://www.ra-ma.es/libro/electricidad-basica_48645/',
     },
   ],
   glosario: [
@@ -233,40 +232,40 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Ángela Rocío Sánchez Ruiz',
-          cargo: 'Experto Temático',
-          centro: 'Centro de Electricidad, Electrónica y Telecomunicaciones',
-        },
-        {
-          nombre: 'Miroslava González H.',
-          cargo: 'Diseñador y Evaluador Instruccional',
-          centro: 'Centro de Gestión Industrial',
-        },
-        {
-          nombre: 'Juan Gilberto Giraldo Cortés',
-          cargo: 'Diseñador Instruccional',
-          centro: '',
-        },
-        {
-          nombre: 'Álix Cecilia Chinchilla Rueda',
-          cargo: 'Evaluadora Instruccional',
-          centro: 'Centro de Gestión Industrial',
-        },
-        {
-          nombre: 'Viviana Esperanza Herrera Quiñones',
-          cargo: 'Asesora Metodológica',
-          centro: 'Centro de Comercio y Servicios',
-        },
-        {
-          nombre: 'Rafael Neftalí Lizcano',
-          cargo: 'Asesor Pedagógico',
+          nombre: 'Andrés Aurelio Alarcón Tique ',
+          cargo: 'Experto Técnico ',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Regional Distrito Capital Centro de Electricidad, Electrónica y Telecomunicaciones.',
         },
         {
-          nombre: 'Darío González',
-          cargo: 'Revisión y Corrección de Estilo',
-          centro: 'Regional Tolima - Centro Agropecuario La Granja',
+          nombre: 'Gewin Alfonso Fernández Cáceres ',
+          cargo: 'Experto Técnico ',
+          centro: 'Regional Caribe Centro de Tecnología Colombo Alemán.',
+        },
+        {
+          nombre: 'Miroslava González Hernández ',
+          cargo: 'Diseñador y Evaluador Instruccional ',
+          centro: 'Regional Distrito Capital Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Sergio Augusto Ardila Ortiz',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda ',
+          cargo: 'Evaluador Instruccional ',
+          centro: 'Regional Distrito Capital Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Uriel Darío González Montoya ',
+          cargo: 'Revisión y Corrección de Estilo ',
+          centro: 'Regional Tolima Centro Agropecuario La Granja',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñonez',
+          cargo: 'Asesor Metodológico ',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
       ],
     },
@@ -290,11 +289,16 @@ export default {
         },
         {
           nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Animador y Producción Audiovisual',
+          cargo: 'Producción Audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Sebastián Trujillo Afanador',
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Actividad Didáctica',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },

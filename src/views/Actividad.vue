@@ -10,14 +10,14 @@
             img(src="@/assets/template/seleccion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Medición y protocolos para circuitos eléctricos
+          h2 Cálculo y medición de magnitudes eléctricas y electrónicas
         p.mb-4 #[b Objetivo:] Aplicar los conocimientos teóricos adquiridos en el desarrollo del componente formativo sobre protocolos y medición de circuitos eléctricos. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 SELECCIÓN MÚLTIPLE
+              p.fw-bold.mb-0 Selección múltiple
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/Actividad didáctica CF01/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/AD/actividad.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 

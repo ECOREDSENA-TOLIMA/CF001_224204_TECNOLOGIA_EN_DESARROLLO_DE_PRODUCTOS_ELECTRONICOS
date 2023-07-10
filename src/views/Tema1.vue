@@ -28,9 +28,9 @@
         .col-10.offset-1
           .row
             .col-12.col-lg-6.p-0(data-aos="zoom-in")
-              p.mb-4.borde-secundario-izq.mx-0.px-3(data-aos="fade-down-right") <b>Figura 1 :</b> &nbsp;&nbsp; <em>Resistencia</em>
+              p.mb-4.borde-secundario-izq.mx-0.px-3(data-aos="fade-down-right") <b>Figura 1.</b> &nbsp;&nbsp; <em>Resistencia</em>
               figure
-                img(src="@/assets/curso/temas/tema-1-3.png", alt="Texto que describa la imagen")
+                img(src="@/assets/curso/temas/tema-1-3.png", alt="La figura 1 contiene un ejemplo común de una resistencias. Vienen diseñadas con porcentajes del 5, 10 y 20 por ciento de precisión, por lo cual se identifican, respectivamente, con una banda dorada, plateada y sin banda adicional.")
             .col-12.col-lg-6.py-5.py-lg-0.px-4.borde-primario.centrar-hijo-vertical(data-aos="fade-right")
               p.m-0 #[strong Un ejemplo común son las resistencias.] Vienen diseñadas con porcentajes del 5, 10 y 20 por ciento de precisión, por lo cual se identifican, respectivamente, con una banda dorada, plateada y sin banda adicional. #[strong Varios autores denominan esta banda como de tolerancia.]
       .titulo-segundo.mt-5
@@ -45,7 +45,7 @@
       .row.mt-5
         .col-10.offset-1(data-aos="fade-down-right")
           figure
-            img(src="@/assets/curso/temas/tema-1-5.png", alt="Texto que describa la imagen")
+            img(src="@/assets/curso/temas/tema-1-5.png", alt="La Imagen 2, contiene una infografía de mediciones e instrumentos en un circuito electrónico.")
       .row.mt-5
         .col-12.col-lg-7(data-aos="fade-down-right")
           p Las unidades de longitud se utilizan para medir la distancia entre dos puntos, la cual puede ser un segmento, una línea recta o una curva.  La unidad de distancia está determinada de acuerdo con un sistema de medidas por convención. En los orígenes de la humanidad, se utilizaron partes del cuerpo, cada país o región tenía sus propias medidas y, a menudo, una medida era diferente en cada lugar. Estas situaciones requirieron de la necesidad de un sistema métrico universal.
@@ -78,7 +78,7 @@
                 p El sistema internacional de medidas está basado en el metro, cuyo símbolo es m, tiene múltiplos y submúltiplos denominados con prefijos, siempre basados en divisiones o amplificaciones por 10. #[strong El metro, actualmente, se define como la distancia que recorre la luz en el vacío durante un intervalo de 1/299.792.458 de segundo.] A continuación, podemos visualizar sus orígenes:
       .row.mt-5(data-aos="zoom-in")
         figure.p-0
-          img(src="@/assets/curso/temas/tema-1-8.svg", alt="Texto que describa la imagen")
+          img(src="@/assets/curso/temas/tema-1-8.svg", alt="La Imagen 4,  contiene la cronología de como se establecio el sistema internacional de medidas eléctricas y electrónicas.")
       .row.mt-5
         .col-lg-2.d-none.d-lg-flex.rounded-25.bg-amarillo.py-3.px-5.text-center.align-left-center(data-aos="zoom-in")
           figure.align-self-center
@@ -114,10 +114,12 @@
             img(src="@/assets/curso/temas/tema-1-11.png", alt="Texto que describa la imagen")
       .row.mt-5
         .col-10.col-lg-8.offset-1.offset-lg-2
-          p.mb-4.borde-secundario-izq.mx-0.px-3(data-aos="fade-down-right") <b>Figura 2 :</b> &nbsp;&nbsp; <em>Esquema de corriente eléctrica</em> 
+          p.mb-4.borde-secundario-izq.mx-0.px-3(data-aos="fade-down-right") <b>Figura 2.</b> &nbsp;&nbsp; <em>Esquema de corriente eléctrica</em> 
           figure.mt-4
-            img(src="@/assets/curso/temas/tema-1-12.png", alt="Texto que describa la imagen")
+            img(src="@/assets/curso/temas/tema-1-12.png", alt="La figura 2, contiene la imagen de un esquema de corriente eléctrica.")
           figcaption Nota: Tomado de Wilson15b. (2020)   
+      .row.mt-5
+        .h4.mb-4.borde-secundario-izq.mx-3 Magnitudes eléctricas y electrónicas
       TabsA.color-acento-botones.mt-5
         .tarjeta.color-acento-botones--borde.p-4(titulo="1. Corriente")
           h4 La corriente se define como la rapidez de flujo de la carga, esto es:
@@ -128,19 +130,19 @@
             .col-10.col-lg-8.offset-1.offset-lg-2(data-aos="fade-down-right")
               p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura 3:</b> &nbsp;&nbsp; <em>Gráfica de fuente de corriente</em>
               figure.mt-4
-                img(src="@/assets/curso/temas/tema-1-13.png", alt="Texto que describa la imagen")
+                img(src="@/assets/curso/temas/tema-1-13.png", alt="La figura 3, contiene una imagen que representa el Símbolo de la fuente de corriente.")
               figcaption Nota: Tomada de Fernández (2019).
             p.mt-4 Una fuente ideal de corriente es un dispositivo que, cuando se conecta, extraerá I amperios de la terminal 2 y empujará amperios hacia la terminal 1 (y viceversa, si la flecha señala en el sentido opuesto).   La cantidad de corriente producida por una fuente ideal será función del tiempo.  
             p.mt-4 En los circuitos, se presenta corriente directa CD, o continua CC, (DC, por las siglas en inglés) y corriente alterna CA (AC, por las siglas en inglés). Teniendo en cuenta el origen de la corriente, según la fuente de poder, se usa una batería para la corriente directa y para la energía alterna, la cual normalmente varía la frecuencia o su señal senoidal en 60 Hertz. 
             p.mt-4 Los divisores de corriente son dispositivos utilizados para repartir la corriente entre resistencias en paralelo de un circuito y están fundamentados en la Ley de Kirchhoff.
         .tarjeta.color-acento-botones--borde.p-4(titulo="2. Voltaje")
-          p #[strong El voltaje es producido por una fuente de voltaje o diferencia de potencial de v voltios entre sus terminales,] sin importar a qué esté conectada.  La cantidad de voltaje (v) puede ser un número positivo o negativo; este último se da cuando es producida por una fuente de voltaje alterna (como, por ejemplo, el suministro de energía eléctrica residencial o comercial de las ciudades). El voltaje es positivo cuando se refiere al producido por una fuente de voltaje directa.
+          p #[strong El voltaje es producido por una fuente de voltaje o diferencia de potencial de (v) voltios entre sus terminales,] sin importar a qué esté conectada.  La cantidad de voltaje (v) puede ser un número positivo o negativo; este último se da cuando es producida por una fuente de voltaje alterna (como, por ejemplo, el suministro de energía eléctrica residencial o comercial de las ciudades). El voltaje es positivo cuando se refiere al producido por una fuente de voltaje directa.
           p.mt-3 El voltaje también es conocido como tensión o caída de tensión, debido a la polarización, y es muy utilizado en el diseño de elementos para circuitos electrónicos, en unión con el tema de corriente inversa, el cual se refiere a la corriente con polarización diferente a la de la tensión, y es adicionada con la corriente producida térmicamente y la corriente superficial de fugas.
           p.mt-3 La tensión a partir de la cual la corriente empieza a incrementar rápidamente se denomina tensión de umbral del diodo, que es igual a la barrera de potencial.
           .col-10.col-lg-8.offset-1.offset-lg-2(data-aos="fade-down-right")
             p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura 4:</b> &nbsp;&nbsp; <em>Gráfica de fuente de voltaje</em>
             figure.mt-4
-              img(src="@/assets/curso/temas/tema-1-14.png", alt="Texto que describa la imagen")
+              img(src="@/assets/curso/temas/tema-1-14.png", alt="La figura 8 contiene una grafica de una fuente de voltaje.")
             figcaption Nota: Tomado de Tutoriales de electrónica básica (2019).
           .row.mt-4 
             .col-12
@@ -161,7 +163,7 @@
             .col-10.col-lg-8.offset-1.offset-lg-2.mt-4(data-aos="fade-down-right")
               p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura 5:</b> &nbsp;&nbsp; <em>Gráfica representativa de la resistencia</em>
               figure.mt-4
-                img(src="@/assets/curso/temas/tema-1-15.png", alt="Texto que describa la imagen")
+                img(src="@/assets/curso/temas/tema-1-15.png", alt="La figura 5, contiene una gráfica representativa de la resistencia.")
               figcaption Nota: Tomada de Julián (s. f.).
           .row.mt-4 
             .col-12
@@ -179,7 +181,7 @@
             .col-10.col-lg-8.offset-1.offset-lg-2.mt-4(data-aos="fade-down-right")
               p.mb-4.borde-secundario-izq.mx-3.px-3 <b>Figura 6:</b> &nbsp;&nbsp; <em>Potencia absorbida por un elemento</em>
               figure.mt-4
-                img(src="@/assets/curso/temas/tema-1-16.png", alt="Texto que describa la imagen")
+                img(src="@/assets/curso/temas/tema-1-16.png", alt="La figura 6, describe la potencia absorbida por un elemento.")
               figcaption Nota: Tomada de Acosta (s. f.).
           p.mt-4 En atención a que la potencia absorbida en un elemento dado puede ser una cantidad positiva o negativa, dependiendo de la relación entre el voltaje y la corriente del elemento dado, puede expresarse que el elemento absorbe vatios, o en forma equivalente, suministra o entrega vatios.
         .tarjeta.color-acento-botones--borde.p-4(titulo="5. Continuidad")
@@ -215,26 +217,26 @@
           p.mt-4 Igual aplicación se da para la impedancia Z en los circuitos con inductores.  
           p.mt-4 La Ley de Watt hace referencia a la potencia eléctrica de un componente electrónico o un aparato y se define como la potencia consumida por la carga, es directamente proporcional al voltaje suministrado y a la corriente que circula por este. La unidad de la potencia es el watt. El símbolo para representar la potencia es “P” (Mecatrónica LATAM, 2021).
           p.mt-4 Para encontrar la potencia eléctrica (P), se pueden emplear las siguientes fórmulas:
-          .row.mt-4
-            .col-8.offset-2.rounded-25.bg-amarillo.py-3.px-3
+          .row.mt-4.justify-content-center.align-items-center
+            .col-8.rounded-25.bg-amarillo.p-3.text-center
               .row
-                .col-10.px-4
+                .col-lg-6
                   .h5.m-0 Conociendo el voltaje y la corriente:
-                .col-2
+                .col-6
                   .h5.m-0 P = V x I
           .row.mt-3
-            .col-8.offset-2.rounded-25.bg-amarillo.py-3.px-3
+            .col-8.offset-2.rounded-25.bg-amarillo.p-3.text-center
               .row
-                .col-10.px-4
+                .col-lg-6
                   .h5.m-0 Conociendo la resistencia eléctrica y la corriente:
-                .col-2
+                .col-6
                   .h5.m-0 P = R x I<sup>2</sup>
           .row.mt-3
-            .col-8.offset-2.rounded-25.bg-amarillo.py-3.px-3
+            .col-8.offset-2.rounded-25.bg-amarillo.p-3.text-center
               .row
-                .col-10.px-4
+                .col-lg-6
                   .h5.m-0 Conociendo el voltaje y la resistencia eléctrica:
-                .col-2
+                .col-6
                   .h5.m-0 P = V<sup>2</sup>/R
           p.mt-4 En las anteriores fórmulas, únicamente se sustituyeron las incógnitas correspondientes, empleando la fórmula de la ley de Ohm.
       .row.mt-4
@@ -249,16 +251,22 @@
       .row.mt-3
         .col-12.col-g-10.d-none.d-lg-flex.py-3.px-5.text-center.align-left-center
           figure.align-self-center
-            img(src="@/assets/curso/temas/cuadros.svg", alt="Texto que describa la imagen")
-      .row.mt-5 
-        .col-12.bg-color-acento-botones.rounded-10
-            .row
-              .col-2.col-lg-1.py-4.text-center
-                figure
-                  img(src="@/assets/curso/temas/tema-1-19.svg", alt="Texto que describa la imagen").w-75.d-inline
-              .col-10.col-lg-11
-                .h4.mt-4 Recuerde
-                p.mt-3 Las magnitudes son propiedades que pueden ser medidas en los circuitos eléctricos y electrónicos. Básicamente, se mide la corriente, el voltaje y la resistencia. Ahora bien, por la interacción de estas tres, que conforman el triángulo de Ohm, se pueden medir otras magnitudes, como la potencia o la conductancia.
+            img(src="@/assets/curso/temas/tema-1-21.svg", alt="Texto que describa la imagen")
+      .row.mt-5.justify-content-center.align-items-center
+        .col-10
+            .row.justify-content-center.align-items-center
+              .col-lg-10.mb-5.mb-lg-0
+                .bloque-texto-b.color-acento-botones.p-4
+                  .bloque-texto-b__texto
+                    i.fas.fa-quote-left
+                    h4.mb-0 Quizá la forma más antigua que conoció el hombre de experimentar fenómenos eléctricos fue con la fricción o frotación. La historia dice que fue Tales de Mileto quien observó dicho fenómeno al frotar un trozo de ámbar con un trozo de piel. Tras la frotación, observó que podían atraerse pequeños objetos y llamó a esa fuerza invisible elektron. 
+                    i.fas.fa-quote-right
+                    span - Ámbar (Arboledas, 2014).
+      
+      .row.justify-content-center
+        .col-lg-12.mt-5
+          figure
+            img(src="@/assets/curso/temas/tema-1-20.svg", alt="Texto que describa la imagen")
 </template>
 
 <script>
