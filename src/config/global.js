@@ -104,11 +104,6 @@ export default {
         'https://www.tecnologiaypedagogia.net/2019/10/ley-de-kirchhoff-desarrollada-por-el.html',
     },
     {
-      referencia: 'Arboledas, D. (2014). Electricidad básica. RA-MA.',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/106570?page=24.',
-    },
-    {
       referencia:
         'Cuervo, A. (s.f.). Guías únicas de laboratorio: detección de fallas [Universidad Santiago de Cali, Departamento de Laboratorios]. Recuperado de',
       link:
